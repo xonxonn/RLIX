@@ -1,0 +1,145 @@
+		*{
+			font-family: 'Poppins', sans-serif;
+			margin: 0px;
+			padding: 0px;
+			box-sizing: border-box;
+		}
+
+		body{
+			background-color:#f2f2f2;
+		}
+		.cabecalho{
+			width: 90%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+			text-align: center;
+			margin: 20px auto;
+		}
+
+		.cabecalho h1{
+			font-size: 50px;
+			color: #000;
+			margin-bottom: 25px;
+			position: relative;
+		}
+
+		.cabecalho h1::after{
+			content: "";
+			position: absolute;
+			width: 100%;
+			height: 4px;
+			display: block;
+			margin: 0 auto;
+			background-color: #48D1CC;
+		}
+
+		.cabecalho p{
+			font-size: 18px;
+			color: #666;
+			margin-bottom: 35px;
+		}
+
+		.container{
+			width: 90%;
+			margin: 0 auto;
+			padding: 10px 20px;
+		}
+
+		.sobre{
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			flex-wrap: wrap;
+		}
+
+		.sobre-imagem{
+			flex: 1;
+			margin-right: 40px;
+			margin-left: 40px;
+			overflow: hidden;
+		}
+
+		.sobre-imagem img{
+			max-width: 180%;
+			height: auto;
+			display: block;
+			transition: 0.5 ease;
+		}
+
+		.sobre-imagem:hover img{
+			transform: scale(1.2);
+		}
+
+		.sobre-conteudo{
+			flex: 1.5;
+		}
+
+		.sobre-conteudo h2{
+			font-size: 23px;
+			margin-bottom: 15px;
+			color: #333;
+		}
+
+		.sobre-conteudo p{
+			font-size: 18px;
+			line-height: 1.5;
+			color: #666;
+		}
+
+		.sobre-conteudo .cadastrese{
+			display: inline-block;
+			padding: 15px 25px;
+			background-color: #48D1CC;
+			color: #fff;
+			font-size: 19px;
+			text-decoration: none;
+			border-radius: 15px;
+			margin-top: 15px;
+			transition: 0.3 ease;
+		}
+
+		.sobre-conteudo .cadastrese:hover{
+			background-color: #A3F7F9;
+			color: #000;
+		}
+
+		.sobre-conteudo .voltar{
+			display: inline-block;
+			padding: 15px 25px;
+			background-color: #48D1CC;
+			color: #fff;
+			font-size: 19px;
+			text-decoration: none;
+			border-radius: 15px;
+			margin-top: 15px;
+			transition: 0.3 ease;
+			margin-left: 10px;
+		}
+
+		.sobre-conteudo .voltar:hover{
+			background-color: #A3F7F9;
+			color: #000;
+		}
+
+		footer{
+			margin-bottom: 0%;
+			margin-top: 10%;
+		}
+
+		.footerBottom{
+    		background-color: #000;
+    		padding: 20px;
+    		text-align: center;
+		}
+		.footerBottom p{
+    		color: white;
+		}
+		.designer{
+   		 	opacity: 0.7;
+    		text-transform: uppercase;
+    		letter-spacing: 1px;
+    		font-weight: 400;
+    		margin: 0px 5px;
+		}

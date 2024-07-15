@@ -1,0 +1,18 @@
+		
+		@page{
+			size: landscape;
+		}
+
+		.only-print{
+    		display: none;
+    	}
+
+    	@media print {
+
+    		.noprint{
+    			display: none;
+    		}
+    		.only-print{
+    			display: block;
+    		}
+    	}
